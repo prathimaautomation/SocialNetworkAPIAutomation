@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-All_Test_Classes">
+              <span class="suite-name border-passed">All Test Classes</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-All_Test_Classes">
+                    <span>C:\Users\Medha\apis\SocialNetworkAPIAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-All_Test_Classes">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-All_Test_Classes">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-All_Test_Classes">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-All_Test_Classes">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-All_Test_Classes">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-All_Test_Classes">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Classes" class="hide-methods passed suite-All_Test_Classes"> (hide)</a> <!-- hide-methods passed suite-All_Test_Classes -->
+                      <a href="#" panel-name="suite-All_Test_Classes" class="show-methods passed suite-All_Test_Classes"> (show)</a> <!-- show-methods passed suite-All_Test_Classes -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Classes">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.comment.CommentsTest" hash-for-method="fetchListOfCommentsAndAssertSize">fetchListOfCommentsAndAssertSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.post.PostsTest" hash-for-method="fetchListOfPostsAndAssertSize">fetchListOfPostsAndAssertSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.user.UsersTest" hash-for-method="fetchListOfUsersAndAssertSize">fetchListOfUsersAndAssertSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.comment.CommentsTest" hash-for-method="testResponseBodyWithIdNameAndEmail(1, id labore ex et quam laborum, Eliseo@gardner.biz)">testResponseBodyWithIdNameAndEmail(1, id labore ex et quam laborum, Eliseo@gardner.biz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.comment.CommentsTest" hash-for-method="testResponseBodyWithIdNameAndEmail(2, quo vero reiciendis velit similique earum, Jayne_Kuhic@sydney.com)">testResponseBodyWithIdNameAndEmail(2, quo vero reiciendis velit similique earum, Jayne_Kuhic@sydney.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.user.UsersTest" hash-for-method="testResponseBodyWithIdTitleAndBody(2, Ervin Howell, Antonette, Shanna@melissa.tv, 010-692-6593 x09125, anastasia.net)">testResponseBodyWithIdTitleAndBody(2, Ervin Howell, Antonette, Shanna@melissa.tv, 010-692-6593 x09125, anastasia.net)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.post.PostsTest" hash-for-method="testResponseBodyWithIdTitleAndBody(1, sunt aut facere repellat provident occaecati excepturi optio reprehenderit)">testResponseBodyWithIdTitleAndBody(1, sunt aut facere repellat provident occaecati excepturi optio reprehenderit)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.user.UsersTest" hash-for-method="testResponseBodyWithIdTitleAndBody(1, Leanne Graham, Bret, Sincere@april.biz, 1-770-736-8031 x56442, hildegard.org)">testResponseBodyWithIdTitleAndBody(1, Leanne Graham, Bret, Sincere@april.biz, 1-770-736-8031 x56442, hildegard.org)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.post.PostsTest" hash-for-method="testResponseBodyWithIdTitleAndBody(2, qui est esse)">testResponseBodyWithIdTitleAndBody(2, qui est esse)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.comment.CommentsTest" hash-for-method="testResponseCodeAndContentType(2)">testResponseCodeAndContentType(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.comment.CommentsTest" hash-for-method="testResponseCodeAndContentType(1)">testResponseCodeAndContentType(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.post.PostsTest" hash-for-method="testResponseCodeAndContentType(2)">testResponseCodeAndContentType(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.user.UsersTest" hash-for-method="testResponseCodeAndContentType(2)">testResponseCodeAndContentType(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.user.UsersTest" hash-for-method="testResponseCodeAndContentType(1)">testResponseCodeAndContentType(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.post.PostsTest" hash-for-method="testResponseCodeAndContentType(1)">testResponseCodeAndContentType(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.comment.CommentsTest" hash-for-method="testResponseCodeWithInvalidCommentsId(8000)">testResponseCodeWithInvalidCommentsId(8000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.comment.CommentsTest" hash-for-method="testResponseCodeWithInvalidCommentsId(7000)">testResponseCodeWithInvalidCommentsId(7000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.post.PostsTest" hash-for-method="testResponseCodeWithInvalidPostsId(8000)">testResponseCodeWithInvalidPostsId(8000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.post.PostsTest" hash-for-method="testResponseCodeWithInvalidPostsId(7000)">testResponseCodeWithInvalidPostsId(7000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.user.UsersTest" hash-for-method="testResponseCodeWithInvalidUsersId(8000)">testResponseCodeWithInvalidUsersId(8000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.user.UsersTest" hash-for-method="testResponseCodeWithInvalidUsersId(7000)">testResponseCodeWithInvalidUsersId(7000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.post.PostsTest" hash-for-method="testResponseStatusCode200AndContentTypeJSON">testResponseStatusCode200AndContentTypeJSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.comment.CommentsTest" hash-for-method="testResponseStatusCode200AndContentTypeJSON">testResponseStatusCode200AndContentTypeJSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.singleEndpoint.user.UsersTest" hash-for-method="testResponseStatusCode200AndContentTypeJSON">testResponseStatusCode200AndContentTypeJSON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.multipleEndpoints.posts.PostsByUserTest" hash-for-method="testTotalCountOfPostsByUserAndValidateResponseBody(Kamren, 10)">testTotalCountOfPostsByUserAndValidateResponseBody(Kamren, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.multipleEndpoints.posts.PostsByUserTest" hash-for-method="testTotalCountOfPostsByUserAndValidateResponseBody(Karianne, 10)">testTotalCountOfPostsByUserAndValidateResponseBody(Karianne, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.multipleEndpoints.posts.PostsByUserTest" hash-for-method="testTotalCountOfPostsByUserAndValidateResponseBody(Antonette, 10)">testTotalCountOfPostsByUserAndValidateResponseBody(Antonette, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Classes" title="testcase.multipleEndpoints.comments.CommentsOfPostsByUserTest" hash-for-method="validateEmailFormatInCommentsForPostsByUser(Samantha)">validateEmailFormatInCommentsForPostsByUser(Samantha)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Classes -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Classes" class="panel All_Test_Classes">
+          <div class="suite-All_Test_Classes-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.singleEndpoint.post.PostsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fetchListOfPostsAndAssertSize">
+                  </a> <!-- fetchListOfPostsAndAssertSize -->
+                  <span class="method-name">fetchListOfPostsAndAssertSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseBodyWithIdTitleAndBody(1, sunt aut facere repellat provident occaecati excepturi optio reprehenderit)">
+                  </a> <!-- testResponseBodyWithIdTitleAndBody(1, sunt aut facere repellat provident occaecati excepturi optio reprehenderit) -->
+                  <span class="method-name">testResponseBodyWithIdTitleAndBody</span>
+                  <span class="parameters">(1, sunt aut facere repellat provident occaecati excepturi optio reprehenderit)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseBodyWithIdTitleAndBody(2, qui est esse)">
+                  </a> <!-- testResponseBodyWithIdTitleAndBody(2, qui est esse) -->
+                  <span class="method-name">testResponseBodyWithIdTitleAndBody</span>
+                  <span class="parameters">(2, qui est esse)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeAndContentType(2)">
+                  </a> <!-- testResponseCodeAndContentType(2) -->
+                  <span class="method-name">testResponseCodeAndContentType</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeAndContentType(1)">
+                  </a> <!-- testResponseCodeAndContentType(1) -->
+                  <span class="method-name">testResponseCodeAndContentType</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeWithInvalidPostsId(8000)">
+                  </a> <!-- testResponseCodeWithInvalidPostsId(8000) -->
+                  <span class="method-name">testResponseCodeWithInvalidPostsId</span>
+                  <span class="parameters">(8000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeWithInvalidPostsId(7000)">
+                  </a> <!-- testResponseCodeWithInvalidPostsId(7000) -->
+                  <span class="method-name">testResponseCodeWithInvalidPostsId</span>
+                  <span class="parameters">(7000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseStatusCode200AndContentTypeJSON">
+                  </a> <!-- testResponseStatusCode200AndContentTypeJSON -->
+                  <span class="method-name">testResponseStatusCode200AndContentTypeJSON</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Classes-class-passed -->
+          <div class="suite-All_Test_Classes-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.multipleEndpoints.comments.CommentsOfPostsByUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmailFormatInCommentsForPostsByUser(Samantha)">
+                  </a> <!-- validateEmailFormatInCommentsForPostsByUser(Samantha) -->
+                  <span class="method-name">validateEmailFormatInCommentsForPostsByUser</span>
+                  <span class="parameters">(Samantha)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Classes-class-passed -->
+          <div class="suite-All_Test_Classes-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.singleEndpoint.comment.CommentsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fetchListOfCommentsAndAssertSize">
+                  </a> <!-- fetchListOfCommentsAndAssertSize -->
+                  <span class="method-name">fetchListOfCommentsAndAssertSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseBodyWithIdNameAndEmail(1, id labore ex et quam laborum, Eliseo@gardner.biz)">
+                  </a> <!-- testResponseBodyWithIdNameAndEmail(1, id labore ex et quam laborum, Eliseo@gardner.biz) -->
+                  <span class="method-name">testResponseBodyWithIdNameAndEmail</span>
+                  <span class="parameters">(1, id labore ex et quam laborum, Eliseo@gardner.biz)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseBodyWithIdNameAndEmail(2, quo vero reiciendis velit similique earum, Jayne_Kuhic@sydney.com)">
+                  </a> <!-- testResponseBodyWithIdNameAndEmail(2, quo vero reiciendis velit similique earum, Jayne_Kuhic@sydney.com) -->
+                  <span class="method-name">testResponseBodyWithIdNameAndEmail</span>
+                  <span class="parameters">(2, quo vero reiciendis velit similique earum, Jayne_Kuhic@sydney.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeAndContentType(2)">
+                  </a> <!-- testResponseCodeAndContentType(2) -->
+                  <span class="method-name">testResponseCodeAndContentType</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeAndContentType(1)">
+                  </a> <!-- testResponseCodeAndContentType(1) -->
+                  <span class="method-name">testResponseCodeAndContentType</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeWithInvalidCommentsId(8000)">
+                  </a> <!-- testResponseCodeWithInvalidCommentsId(8000) -->
+                  <span class="method-name">testResponseCodeWithInvalidCommentsId</span>
+                  <span class="parameters">(8000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeWithInvalidCommentsId(7000)">
+                  </a> <!-- testResponseCodeWithInvalidCommentsId(7000) -->
+                  <span class="method-name">testResponseCodeWithInvalidCommentsId</span>
+                  <span class="parameters">(7000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseStatusCode200AndContentTypeJSON">
+                  </a> <!-- testResponseStatusCode200AndContentTypeJSON -->
+                  <span class="method-name">testResponseStatusCode200AndContentTypeJSON</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Classes-class-passed -->
+          <div class="suite-All_Test_Classes-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.singleEndpoint.user.UsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fetchListOfUsersAndAssertSize">
+                  </a> <!-- fetchListOfUsersAndAssertSize -->
+                  <span class="method-name">fetchListOfUsersAndAssertSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseBodyWithIdTitleAndBody(2, Ervin Howell, Antonette, Shanna@melissa.tv, 010-692-6593 x09125, anastasia.net)">
+                  </a> <!-- testResponseBodyWithIdTitleAndBody(2, Ervin Howell, Antonette, Shanna@melissa.tv, 010-692-6593 x09125, anastasia.net) -->
+                  <span class="method-name">testResponseBodyWithIdTitleAndBody</span>
+                  <span class="parameters">(2, Ervin Howell, Antonette, Shanna@melissa.tv, 010-692-6593 x09125, anastasia.net)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseBodyWithIdTitleAndBody(1, Leanne Graham, Bret, Sincere@april.biz, 1-770-736-8031 x56442, hildegard.org)">
+                  </a> <!-- testResponseBodyWithIdTitleAndBody(1, Leanne Graham, Bret, Sincere@april.biz, 1-770-736-8031 x56442, hildegard.org) -->
+                  <span class="method-name">testResponseBodyWithIdTitleAndBody</span>
+                  <span class="parameters">(1, Leanne Graham, Bret, Sincere@april.biz, 1-770-736-8031 x56442, hildegard.org)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeAndContentType(2)">
+                  </a> <!-- testResponseCodeAndContentType(2) -->
+                  <span class="method-name">testResponseCodeAndContentType</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeAndContentType(1)">
+                  </a> <!-- testResponseCodeAndContentType(1) -->
+                  <span class="method-name">testResponseCodeAndContentType</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeWithInvalidUsersId(8000)">
+                  </a> <!-- testResponseCodeWithInvalidUsersId(8000) -->
+                  <span class="method-name">testResponseCodeWithInvalidUsersId</span>
+                  <span class="parameters">(8000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseCodeWithInvalidUsersId(7000)">
+                  </a> <!-- testResponseCodeWithInvalidUsersId(7000) -->
+                  <span class="method-name">testResponseCodeWithInvalidUsersId</span>
+                  <span class="parameters">(7000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResponseStatusCode200AndContentTypeJSON">
+                  </a> <!-- testResponseStatusCode200AndContentTypeJSON -->
+                  <span class="method-name">testResponseStatusCode200AndContentTypeJSON</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Classes-class-passed -->
+          <div class="suite-All_Test_Classes-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.multipleEndpoints.posts.PostsByUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalCountOfPostsByUserAndValidateResponseBody(Kamren, 10)">
+                  </a> <!-- testTotalCountOfPostsByUserAndValidateResponseBody(Kamren, 10) -->
+                  <span class="method-name">testTotalCountOfPostsByUserAndValidateResponseBody</span>
+                  <span class="parameters">(Kamren, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalCountOfPostsByUserAndValidateResponseBody(Karianne, 10)">
+                  </a> <!-- testTotalCountOfPostsByUserAndValidateResponseBody(Karianne, 10) -->
+                  <span class="method-name">testTotalCountOfPostsByUserAndValidateResponseBody</span>
+                  <span class="parameters">(Karianne, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalCountOfPostsByUserAndValidateResponseBody(Antonette, 10)">
+                  </a> <!-- testTotalCountOfPostsByUserAndValidateResponseBody(Antonette, 10) -->
+                  <span class="method-name">testTotalCountOfPostsByUserAndValidateResponseBody</span>
+                  <span class="parameters">(Antonette, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Classes-class-passed -->
+        </div> <!-- panel All_Test_Classes -->
+        <div panel-name="test-xml-All_Test_Classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Medha\apis\SocialNetworkAPIAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;All Test Classes&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Execute All Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcase.singleEndpoint.comment.CommentsTest&quot;/&gt;
+      &lt;class name=&quot;testcase.singleEndpoint.post.PostsTest&quot;/&gt;
+      &lt;class name=&quot;testcase.singleEndpoint.user.UsersTest&quot;/&gt;
+      &lt;class name=&quot;testcase.multipleEndpoints.comments.CommentsOfPostsByUserTest&quot;/&gt;
+      &lt;class name=&quot;testcase.multipleEndpoints.posts.PostsByUserTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Execute All Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- All Test Classes --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Classes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Execute All Test Cases (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Classes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Classes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Classes');
+function tableData_All_Test_Classes() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateEmailFormatInCommentsForPostsByUser')
+data.setCell(0, 2, 'testcase.multipleEndpoints.comments.CommentsOfPostsByUserTest')
+data.setCell(0, 3, 2002);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testResponseCodeAndContentType')
+data.setCell(1, 2, 'testcase.singleEndpoint.comment.CommentsTest')
+data.setCell(1, 3, 1456);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testResponseBodyWithIdNameAndEmail')
+data.setCell(2, 2, 'testcase.singleEndpoint.comment.CommentsTest')
+data.setCell(2, 3, 507);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testResponseCodeWithInvalidPostsId')
+data.setCell(3, 2, 'testcase.singleEndpoint.post.PostsTest')
+data.setCell(3, 3, 464);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testResponseCodeWithInvalidCommentsId')
+data.setCell(4, 2, 'testcase.singleEndpoint.comment.CommentsTest')
+data.setCell(4, 3, 452);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testTotalCountOfPostsByUserAndValidateResponseBody')
+data.setCell(5, 2, 'testcase.multipleEndpoints.posts.PostsByUserTest')
+data.setCell(5, 3, 212);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testTotalCountOfPostsByUserAndValidateResponseBody')
+data.setCell(6, 2, 'testcase.multipleEndpoints.posts.PostsByUserTest')
+data.setCell(6, 3, 201);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testResponseCodeAndContentType')
+data.setCell(7, 2, 'testcase.singleEndpoint.comment.CommentsTest')
+data.setCell(7, 3, 171);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testTotalCountOfPostsByUserAndValidateResponseBody')
+data.setCell(8, 2, 'testcase.multipleEndpoints.posts.PostsByUserTest')
+data.setCell(8, 3, 166);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'fetchListOfPostsAndAssertSize')
+data.setCell(9, 2, 'testcase.singleEndpoint.post.PostsTest')
+data.setCell(9, 3, 142);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'fetchListOfCommentsAndAssertSize')
+data.setCell(10, 2, 'testcase.singleEndpoint.comment.CommentsTest')
+data.setCell(10, 3, 140);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testResponseBodyWithIdTitleAndBody')
+data.setCell(11, 2, 'testcase.singleEndpoint.post.PostsTest')
+data.setCell(11, 3, 139);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testResponseCodeWithInvalidUsersId')
+data.setCell(12, 2, 'testcase.singleEndpoint.user.UsersTest')
+data.setCell(12, 3, 133);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testResponseCodeAndContentType')
+data.setCell(13, 2, 'testcase.singleEndpoint.post.PostsTest')
+data.setCell(13, 3, 131);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testResponseCodeAndContentType')
+data.setCell(14, 2, 'testcase.singleEndpoint.user.UsersTest')
+data.setCell(14, 3, 130);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testResponseCodeAndContentType')
+data.setCell(15, 2, 'testcase.singleEndpoint.post.PostsTest')
+data.setCell(15, 3, 128);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testResponseCodeWithInvalidCommentsId')
+data.setCell(16, 2, 'testcase.singleEndpoint.comment.CommentsTest')
+data.setCell(16, 3, 128);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'fetchListOfUsersAndAssertSize')
+data.setCell(17, 2, 'testcase.singleEndpoint.user.UsersTest')
+data.setCell(17, 3, 110);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testResponseBodyWithIdTitleAndBody')
+data.setCell(18, 2, 'testcase.singleEndpoint.post.PostsTest')
+data.setCell(18, 3, 104);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testResponseCodeWithInvalidUsersId')
+data.setCell(19, 2, 'testcase.singleEndpoint.user.UsersTest')
+data.setCell(19, 3, 95);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testResponseStatusCode200AndContentTypeJSON')
+data.setCell(20, 2, 'testcase.singleEndpoint.user.UsersTest')
+data.setCell(20, 3, 92);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testResponseStatusCode200AndContentTypeJSON')
+data.setCell(21, 2, 'testcase.singleEndpoint.comment.CommentsTest')
+data.setCell(21, 3, 89);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testResponseBodyWithIdTitleAndBody')
+data.setCell(22, 2, 'testcase.singleEndpoint.user.UsersTest')
+data.setCell(22, 3, 89);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testResponseBodyWithIdNameAndEmail')
+data.setCell(23, 2, 'testcase.singleEndpoint.comment.CommentsTest')
+data.setCell(23, 3, 86);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testResponseCodeWithInvalidPostsId')
+data.setCell(24, 2, 'testcase.singleEndpoint.post.PostsTest')
+data.setCell(24, 3, 86);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testResponseBodyWithIdTitleAndBody')
+data.setCell(25, 2, 'testcase.singleEndpoint.user.UsersTest')
+data.setCell(25, 3, 81);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testResponseStatusCode200AndContentTypeJSON')
+data.setCell(26, 2, 'testcase.singleEndpoint.post.PostsTest')
+data.setCell(26, 3, 78);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testResponseCodeAndContentType')
+data.setCell(27, 2, 'testcase.singleEndpoint.user.UsersTest')
+data.setCell(27, 3, 70);
+window.suiteTableData['All_Test_Classes']= { tableData: data, tableDiv: 'times-div-All_Test_Classes'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-All_Test_Classes">
+              </div> <!-- times-div-All_Test_Classes -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Classes</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Classes" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.singleEndpoint.comment.CommentsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeAndContentType(1)</span>
+                <span class="method-start">498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeAndContentType(2)</span>
+                <span class="method-start">1955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeWithInvalidCommentsId(7000)</span>
+                <span class="method-start">2127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeWithInvalidCommentsId(8000)</span>
+                <span class="method-start">2255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseStatusCode200AndContentTypeJSON</span>
+                <span class="method-start">2708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseBodyWithIdNameAndEmail(1, id labore ex et quam laborum, Eliseo@gardner.biz)</span>
+                <span class="method-start">2799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseBodyWithIdNameAndEmail(2, quo vero reiciendis velit similique earum, Jayne_Kuhic@sydney.com)</span>
+                <span class="method-start">3306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fetchListOfCommentsAndAssertSize</span>
+                <span class="method-start">3392 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.singleEndpoint.post.PostsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3533 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeAndContentType(1)</span>
+                <span class="method-start">3533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeAndContentType(2)</span>
+                <span class="method-start">3664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeWithInvalidPostsId(7000)</span>
+                <span class="method-start">3793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeWithInvalidPostsId(8000)</span>
+                <span class="method-start">3879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseStatusCode200AndContentTypeJSON</span>
+                <span class="method-start">4343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseBodyWithIdTitleAndBody(1, sunt aut facere repellat provident occaecati excepturi optio reprehenderit)</span>
+                <span class="method-start">4421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseBodyWithIdTitleAndBody(2, qui est esse)</span>
+                <span class="method-start">4560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fetchListOfPostsAndAssertSize</span>
+                <span class="method-start">4664 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.singleEndpoint.user.UsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4807 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeAndContentType(1)</span>
+                <span class="method-start">4808 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeAndContentType(2)</span>
+                <span class="method-start">4879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeWithInvalidUsersId(7000)</span>
+                <span class="method-start">5009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseCodeWithInvalidUsersId(8000)</span>
+                <span class="method-start">5142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseStatusCode200AndContentTypeJSON</span>
+                <span class="method-start">5237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseBodyWithIdTitleAndBody(1, Leanne Graham, Bret, Sincere@april.biz, 1-770-736-8031 x56442, hildegard.org)</span>
+                <span class="method-start">5330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResponseBodyWithIdTitleAndBody(2, Ervin Howell, Antonette, Shanna@melissa.tv, 010-692-6593 x09125, anastasia.net)</span>
+                <span class="method-start">5420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fetchListOfUsersAndAssertSize</span>
+                <span class="method-start">5501 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.multipleEndpoints.comments.CommentsOfPostsByUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateEmailFormatInCommentsForPostsByUser(Samantha)</span>
+                <span class="method-start">5611 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.multipleEndpoints.posts.PostsByUserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testTotalCountOfPostsByUserAndValidateResponseBody(Antonette, 10)</span>
+                <span class="method-start">7613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTotalCountOfPostsByUserAndValidateResponseBody(Karianne, 10)</span>
+                <span class="method-start">7815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTotalCountOfPostsByUserAndValidateResponseBody(Kamren, 10)</span>
+                <span class="method-start">8027 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

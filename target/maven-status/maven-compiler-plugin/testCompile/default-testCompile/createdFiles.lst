@@ -1,0 +1,6 @@
+testcase\singleEndpoint\comment\CommentsTest.class
+testcase\singleEndpoint\user\UsersTest.class
+testcase\singleEndpoint\post\PostsTest.class
+testcase\singleEndpoint\SingleEndpointCommon.class
+testcase\multipleEndpoints\comments\CommentsOfPostsByUserTest.class
+testcase\multipleEndpoints\posts\PostsByUserTest.class

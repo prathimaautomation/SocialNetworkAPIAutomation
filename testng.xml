@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Classes" parallel="false" verbose="1">
+    <test name="Execute All Test Cases">
+        <classes>
+            <class name="testcase.singleEndpoint.comment.CommentsTest"/>
+            <class name="testcase.singleEndpoint.post.PostsTest"/>
+            <class name="testcase.singleEndpoint.user.UsersTest"/>
+            <class name="testcase.multipleEndpoints.comments.CommentsOfPostsByUserTest"/>
+            <class name="testcase.multipleEndpoints.posts.PostsByUserTest"/>
+        </classes>
+    </test>
+</suite>
