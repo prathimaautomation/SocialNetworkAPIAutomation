@@ -6,8 +6,11 @@ API tests for some of the endpoints available at https://jsonplaceholder.typicod
 Tech stack
 
 Java 8
+
 Maven
+
 TestNG
+
 REST-assured
 
 Running the tests
